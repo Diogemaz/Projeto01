@@ -54,7 +54,7 @@
                         </div>
                         <div class="form-group">
                             <label for="prazo">Prazo</label>
-                            <input type="number" name="prazo" class="form-control" id="prazo" placeholder="prazo">
+                            <input type="number" name="prazo" class="form-control" id="prazo" placeholder="Prazo em meses">
                         </div>
                         <div class="container">
                             <div class="row">
