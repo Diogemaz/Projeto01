@@ -71,7 +71,13 @@
                     <%
                         if(request.getParameter("valor") == null || request.getParameter("juros") == null || request.getParameter("prazo") == null){
                     %>
-                    Digite os valores para a operação
+                    <div class="container">
+                        <div class="row">
+                            <div class="mx-auto mt-4">
+                                Digite os valores para a operação
+                            </div>
+                        </div>
+                    </div>    
                     <%
                     }else if(erro != null){
                         %>

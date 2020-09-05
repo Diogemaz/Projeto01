@@ -14,9 +14,15 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/menu.jspf"%> 
-        Grupo:<br>
-        Diogenes Paulino da Silva<br>
-        Henrique Pereira<br>
-        Bruno Ricardo
+        <div class="container mt-5">
+            <div class="row">
+                <div class="mx-auto">
+                    <p class="text-center">Grupo</p>
+                    <p class="text-center mb-1">Diogenes Paulino da Silva</p>
+                    <p class="text-center mb-1">Henrique Pereira</p>
+                    <p class="text-center mb-1">Bruno Ricardo</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
