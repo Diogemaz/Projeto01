@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@page import="java.text.DecimalFormat"%>;
+<%@page import="java.text.DecimalFormat"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,6 +14,7 @@
         <title>Amortização</title>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu.jspf"%> 
         <%
             String erro = null;
             double valor = 0;
@@ -39,17 +40,32 @@
                 }
             }}
         %>
-        <%@include file="WEB-INF/jspf/menu.jspf"%> 
-        <form method="GET">
-            Digite o valor:<br>
-            <input type="text" name="valor"><br>
-            Juros:<br>
-            <input type="text" name="juros"><br>
-            Prazo:<br>
-            <input type="number" name="prazo"><br>
-            <input type="submit" value="Calcular">
-        </form>
         <div class="container">
+            <div class="row">
+                <div class="mx-auto mt-4">
+                    <form method="GET">
+                        <div class="form-group">
+                            <label for="valor">Valor</label>
+                            <input type="text" name="valor" class="form-control" id="valor" placeholder="Valor da divida">
+                        </div>
+                        <div class="form-group">
+                            <label for="juros">Juros</label>
+                            <input type="text" name="juros" class="form-control" id="juros"  placeholder="Juros">
+                        </div>
+                        <div class="form-group">
+                            <label for="prazo">Prazo</label>
+                            <input type="number" name="prazo" class="form-control" id="prazo" placeholder="prazo">
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="mx-auto mt-2 mb-3">
+                                    <button type="submit" class="btn btn-secondary">Calcular</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <div class="col-sm">
                 <div class="table-responsive-sm">
                     <%
