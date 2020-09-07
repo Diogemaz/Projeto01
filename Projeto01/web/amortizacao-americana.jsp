@@ -100,6 +100,7 @@
                     <tr>
                         <td><%= i %></td>
                         <%
+                            //saldo
                             if(i != prazo){
                         %>
                         <td><%= formato.format(valor) %></td>
@@ -109,6 +110,7 @@
                         <td>-</td>
                         <%
                             }
+                            //amortização
                             if(i != prazo){
                         %>
                         <td>-</td>
@@ -118,6 +120,7 @@
                         <td><%= formato.format(valor) %></td>
                         <%
                             }
+                            //Juros
                             if(i == 0){
                         %>
                         <td>-</td>
@@ -131,6 +134,7 @@
                         <td><%= formato.format(valorJuros) %></td>
                         <%
                             }
+                            //Prestação
                             if(i == 0){
                         %>
                         <td>-</td>
