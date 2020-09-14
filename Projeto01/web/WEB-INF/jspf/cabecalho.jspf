@@ -1,0 +1,7 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8"%>
+<div class="text-center">
+    <h1>POO - Projeto_01</h1>
+</div>
+<hr/>
+
