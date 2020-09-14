@@ -15,6 +15,7 @@
     </head>
     <body>
         <%@include file="WEB-INF/jspf/menu.jspf"%>
+        <%@include file ="WEB-INF/jspf/cabecalho.jspf"%>
         <%
             String erro = null;
             double valor = 0;
@@ -148,5 +149,8 @@
                 </div>
             </div>
         </div>
+               <%@include file ="WEB-INF/jspf/rodape.jspf"%>
     </body>
 </html>
+
+

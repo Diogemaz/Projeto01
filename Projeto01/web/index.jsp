@@ -23,8 +23,16 @@
                     <p class="text-center mb-1">Henrique Pereira</p>
                     <p class="text-center mb-1">Bruno Ricardo</p>
                     <br><p class="text-center mb-1">Esta aplicação foi desenvolvida com o objetivo de calcular os valores das prestações da tabela price, amortização constante e americana</p>
+                    <br><br><br><br><br><br><br><br>
                 </div>
             </div>
         </div>
+        <%@include file ="WEB-INF/jspf/rodape.jspf"%>
     </body>
 </html>
+
+
+
+
+
+
