@@ -13,7 +13,8 @@
         <title>Home</title>
     </head>
     <body>
-        <%@include file="WEB-INF/jspf/menu.jspf"%> 
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
+        <%@include file ="WEB-INF/jspf/cabecalho.jspf"%>
         <div class="container mt-5">
             <div class="row">
                 <div class="mx-auto">
@@ -21,6 +22,7 @@
                     <p class="text-center mb-1">Diogenes Paulino da Silva</p>
                     <p class="text-center mb-1">Henrique Pereira</p>
                     <p class="text-center mb-1">Bruno Ricardo</p>
+                    <br><p class="text-center mb-1">Esta aplicação foi desenvolvida com o objetivo de calcular os valores das prestações da tabela price, amortização constante e americana</p>
                 </div>
             </div>
         </div>
