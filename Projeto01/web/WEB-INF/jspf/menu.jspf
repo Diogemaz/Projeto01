@@ -10,13 +10,13 @@
         <a class="navbar-brand" href="index.jsp">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="amortizacao-costante.jsp">Amornização costante</a>
+        <a class="nav-link" href="amortizacao-constante.jsp">Amortização Constante</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="amortizacao-americana.jsp">Amornização americana</a>
+        <a class="nav-link" href="amortizacao-americana.jsp">Amortização Americana</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="tabela-price.jsp">Tabela price</a>
+        <a class="nav-link" href="tabela-price.jsp">Tabela Price</a>
       </li>
     </ul>
   </div>
